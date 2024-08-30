@@ -4,6 +4,7 @@ import Main from "./Main";
 import Projects from "./Projects";
 import MySkills from "./MySkills";
 import Footer from "./Footer";
+import ContactForm from "./form";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Projects />
       <MySkills />
+      <ContactForm />
       <Footer />
     </>
   );
